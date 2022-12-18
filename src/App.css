@@ -1,0 +1,156 @@
+
+
+
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .link{
+    width:120px;
+    height:40px;
+    background: rgba(5, 0, 243, 0.33);
+    border-radius:5px;
+    color:black;
+  }
+
+  .nav-item{
+    padding-left: 82px;
+  }
+
+  /* Pulling in reset css and fonts http://seodesigns.com/projects/TD/css/reset.css */
+  .container{
+    width:100vw;
+  }
+
+
+  .main-input {
+    background: #fff;
+    height: 50px;
+    width: 327px;
+    color: #a7b1ab;
+    border: 1px solid  #0500F3;
+    outline:none;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    padding:0px 0px 0px 57px;
+    font-size:16px;
+    background: #ffffff url("./img/img.png") 18px 15px no-repeat;
+    background-size:18px 18px;
+
+  }
+
+  .main-input-2 {
+    background: #fff;
+    height: 50px;
+    width: 327px;
+    color: #a7b1ab;
+    border: 1px solid  #0500F3;
+    outline:none;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    padding:0px 0px 0px 57px;
+    font-size:16px;
+    background: #ffffff url("./img/img_2.png") 18px 15px no-repeat;
+    background-size:18px 18px;
+
+  }
+
+
+
+
+
+
+  .width{
+    width:100vw;
+  }
+
+  .navbar-brand img{
+  width:282px;
+    height:63px;
+
+  }
+
+
+
+  /*LOGIN*/
+
+
+
+  .login-img{
+    width: 323px;
+    height: 63px;
+  }
+
+  .list-item{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+
+  /*LOGIN*/
+
+  .login{
+    display: flex;
+    justify-content: center
+  }
+
+  .button-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+  }
+
+  .button-login-1{
+    width: 325px;
+    height: 43.87px;
+    font-size:22px;
+  }
+
+
+  /*MODAL*/
+
+
+  /*MODAL*/
